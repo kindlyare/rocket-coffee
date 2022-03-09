@@ -18,7 +18,7 @@ body {
   height: 100vh;
   overflow: hidden;
   background-color: var(--background);
-  background-image: url(../src/assets/blur-2.png), url(../src/assets/blur-1.png);
+  background-image: url(src/assets/blur-2.png), url(src/assets/blur-1.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right top -48px, left -350px bottom 50px;
@@ -151,7 +151,7 @@ button:hover {
     height: 100%;
     overflow-x: hidden;
     overflow-y: auto;
-    background-image: url(../src/assets/blur-mobile.png);
+    background-image: url(src/assets/blur-mobile.png);
     background-position: bottom;
     background-size: cover;
   }
